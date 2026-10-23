@@ -42,7 +42,7 @@ app/[club]/page.tsx     notice → header → hero → events → blocks (API or
 
 Everything is a server component except the few parts that need the browser: notice dismissal, the menu drawer, the competition filter / "show more", the click-to-load video, the partners marquee and image error fallbacks.
 
-The partners strip is an infinite marquee built with `motion` (framer-motion's current package). It loops seamlessly by wrapping `x` by one copy's width, eases to a stop on hover or keyboard focus (so the logo under the cursor stays highlighted and clickable), pauses off-screen, and becomes a static wrapped row under `prefers-reduced-motion`.
+The partners strip is an infinite marquee built with `motion` (framer-motion's current package). It loops seamlessly by wrapping `x` by one copy's width, slows to a third of its speed on hover or keyboard focus (the hovered logo comes back to full colour), pauses off-screen, and becomes a static wrapped row under `prefers-reduced-motion`.
 
 **New block type:** add a schema in `lib/api/schema.ts`, a component, and one line in `components/blocks/registry.tsx`. Until then, the renderer skips the block (with a dev-only warning), so the backend can ship it first. The `video` block in Port-Vallon's payload isn't in the documented list. I implemented it to show that this path takes one component and one registry line.
 
