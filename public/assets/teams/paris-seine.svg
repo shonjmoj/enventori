@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -18 100 138" width="100" height="138" role="img" aria-label="paris-seine">
+  <defs><clipPath id="c-paris-seine"><path d="M8 6 Q50 14 92 6 V50 C92 84 70 104 50 114 C30 104 8 84 8 50 Z"/></clipPath></defs>
+  <polygon points="50.00,3.00 51.59,6.82 55.71,7.15 52.57,9.83 53.53,13.85 50.00,11.70 46.47,13.85 47.43,9.83 44.29,7.15 48.41,6.82" fill="#0B1F4D"/>
+  <g clip-path="url(#c-paris-seine)">
+    <rect width="100" height="120" fill="#0B1F4D"/><rect x="38" y="0" width="24" height="120" fill="#E30613"/>
+    <rect x="0" y="0" width="100" height="36" fill="#0B1F4D"/>
+  </g>
+  <path d="M8 6 Q50 14 92 6 V50 C92 84 70 104 50 114 C30 104 8 84 8 50 Z" fill="none" stroke="#0B1F4D" stroke-width="5" stroke-linejoin="round"/>
+  <text x="50" y="28" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="21" letter-spacing="1.5" fill="#FFFFFF">PSF</text>
+</svg>

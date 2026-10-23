@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="toulouse-garonne">
+  <defs>
+    <clipPath id="c-toulouse-garonne"><circle cx="60" cy="60" r="38"/></clipPath>
+    <path id="arc-toulouse-garonne" d="M 60 107 a 47 47 0 1 1 0 -94 a 47 47 0 1 1 0 94"/>
+  </defs>
+  <circle cx="60" cy="60" r="58" fill="#FFFFFF"/>
+  <circle cx="60" cy="60" r="56" fill="none" stroke="#5B2C83" stroke-width="1.5"/>
+  <text font-family="'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="9.5" letter-spacing="1.6" fill="#5B2C83"><textPath href="#arc-toulouse-garonne" startOffset="50%" text-anchor="middle">TOULOUSE GARONNE FC</textPath></text>
+  <g clip-path="url(#c-toulouse-garonne)"><g transform="translate(10 0)"><rect width="100" height="120" fill="#5B2C83"/></g></g>
+  <circle cx="60" cy="60" r="38" fill="none" stroke="#5B2C83" stroke-width="2.5"/>
+  <text x="60" y="68" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="24" fill="#5B2C83" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">TGF</text>
+</svg>

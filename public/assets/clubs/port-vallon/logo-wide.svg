@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="520" height="120" role="img" aria-label="Olympique de Port-Vallon">
+  <g>
+  <defs>
+    <clipPath id="c-port-vallon"><circle cx="60" cy="60" r="38"/></clipPath>
+    <path id="arc-port-vallon" d="M 60 107 a 47 47 0 1 1 0 -94 a 47 47 0 1 1 0 94"/>
+  </defs>
+  <circle cx="60" cy="60" r="58" fill="#0B1F3A"/>
+  <circle cx="60" cy="60" r="56" fill="none" stroke="#A7D8F0" stroke-width="1.5"/>
+  <text font-family="'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="9.5" letter-spacing="1.6" fill="#A7D8F0"><textPath href="#arc-port-vallon" startOffset="50%" text-anchor="middle">OLYMPIQUE DE PORT-VALLON</textPath></text>
+  <g clip-path="url(#c-port-vallon)"><g transform="translate(10 0)"><rect width="100" height="120" fill="#A7D8F0"/><path d="M-4 56 Q 8 48 21 56 T 46 56 T 71 56 T 96 56 T 121 56" fill="none" stroke="#FFFFFF" stroke-width="6"/><path d="M-4 76 Q 8 68 21 76 T 46 76 T 71 76 T 96 76 T 121 76" fill="none" stroke="#FFFFFF" stroke-width="6"/><path d="M-4 96 Q 8 88 21 96 T 46 96 T 71 96 T 96 96 T 121 96" fill="none" stroke="#FFFFFF" stroke-width="6"/></g></g>
+  <circle cx="60" cy="60" r="38" fill="none" stroke="#A7D8F0" stroke-width="2.5"/>
+  <text x="60" y="68" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="24" fill="#A7D8F0" stroke="#0B1F3A" stroke-width="3" paint-order="stroke">OPV</text>
+</g>
+  <text x="134" y="62" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-weight="800" font-size="46" letter-spacing="3" fill="#0B1F3A">OLYMPIQUE</text>
+  <text x="136" y="96" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="22" letter-spacing="7.5" fill="#0B1F3A">DE PORT-VALLON</text>
+</svg>

@@ -1,0 +1,332 @@
+{
+  "snapshotAt": "2026-10-24T08:00:00Z",
+  "tenant": {
+    "slug": "rivemont",
+    "name": "AS Rivemont",
+    "shortName": "Rivemont",
+    "logoUrl": "/assets/teams/rivemont.svg",
+    "brand": {
+      "primary": "#111111",
+      "secondary": "#FFFFFF"
+    },
+    "locale": "fr-FR",
+    "timeZone": "Europe/Paris",
+    "currency": "EUR"
+  },
+  "notice": {
+    "message": "Les personnes portant des signes distinctifs d'un club adverse (maillots, écharpes…) se verront refuser l'accès au Stade de la Maine.",
+    "severity": "warning"
+  },
+  "navigation": [
+    {
+      "label": "Packs",
+      "href": "/packs",
+      "external": false
+    },
+    {
+      "label": "Hospitalités",
+      "href": "/hospitalites",
+      "external": false
+    },
+    {
+      "label": "PMR / PSH",
+      "href": "/accessibilite",
+      "external": false
+    },
+    {
+      "label": "Site officiel",
+      "href": "https://example.com/rivemont",
+      "external": true
+    },
+    {
+      "label": "Boutique officielle",
+      "href": "https://example.com/rivemont/boutique",
+      "external": true
+    },
+    {
+      "label": "Calendrier / Résultats",
+      "href": "https://example.com/rivemont/calendrier",
+      "external": true
+    },
+    {
+      "label": "Billetterie Handball",
+      "href": "https://example.com/rivemont-hand",
+      "external": true
+    }
+  ],
+  "hero": {
+    "title": "Billetterie officielle",
+    "subtitle": null,
+    "imageUrl": "/assets/clubs/rivemont/hero.jpg",
+    "featuredEventId": "178"
+  },
+  "events": [
+    {
+      "id": "185",
+      "kind": "MATCH",
+      "title": null,
+      "competition": {
+        "name": "Ligue Élite",
+        "round": "J10"
+      },
+      "homeTeam": {
+        "name": "AS Rivemont",
+        "shortName": "Rivemont",
+        "logoUrl": "/assets/teams/rivemont.svg"
+      },
+      "awayTeam": {
+        "name": "OGC Cap-Azur",
+        "shortName": "Cap-Azur",
+        "logoUrl": "/assets/teams/cap-azur.svg"
+      },
+      "venue": {
+        "name": "Stade de la Maine",
+        "city": "Rivemont",
+        "timeZone": "Europe/Paris"
+      },
+      "startDatetime": "2026-11-08T16:15:00Z",
+      "hasUnknownStartDate": false,
+      "isOnSale": true,
+      "isSoldOut": false,
+      "onSaleAt": null,
+      "presale": null,
+      "priceFrom": {
+        "amount": 1200,
+        "currency": "EUR"
+      },
+      "urls": {
+        "book": "/evenement/185",
+        "details": "/evenement/185/details"
+      }
+    },
+    {
+      "id": "177",
+      "kind": "MATCH",
+      "title": null,
+      "competition": {
+        "name": "Ligue Élite",
+        "round": "J14"
+      },
+      "homeTeam": {
+        "name": "AS Rivemont",
+        "shortName": "Rivemont",
+        "logoUrl": "/assets/teams/rivemont.svg"
+      },
+      "awayTeam": {
+        "name": "Racing Club de Strasbourg-Ill",
+        "shortName": "Strasbourg-Ill",
+        "logoUrl": "/assets/teams/strasbourg-ill.svg"
+      },
+      "venue": {
+        "name": "Stade de la Maine",
+        "city": "Rivemont",
+        "timeZone": "Europe/Paris"
+      },
+      "startDatetime": "2026-12-12T19:45:00Z",
+      "hasUnknownStartDate": true,
+      "isOnSale": false,
+      "isSoldOut": false,
+      "onSaleAt": null,
+      "presale": null,
+      "priceFrom": null,
+      "urls": {
+        "book": "/evenement/177",
+        "details": "/evenement/177/details"
+      }
+    },
+    {
+      "id": "178",
+      "kind": "MATCH",
+      "title": null,
+      "competition": {
+        "name": "Ligue Élite",
+        "round": "J8"
+      },
+      "homeTeam": {
+        "name": "AS Rivemont",
+        "shortName": "Rivemont",
+        "logoUrl": "/assets/teams/rivemont.svg"
+      },
+      "awayTeam": {
+        "name": "FC Lorvan",
+        "shortName": "Lorvan",
+        "logoUrl": "/assets/teams/lorvan.svg"
+      },
+      "venue": {
+        "name": "Stade de la Maine",
+        "city": "Rivemont",
+        "timeZone": "Europe/Paris"
+      },
+      "startDatetime": "2026-10-25T16:15:00Z",
+      "hasUnknownStartDate": false,
+      "isOnSale": true,
+      "isSoldOut": false,
+      "onSaleAt": null,
+      "presale": null,
+      "priceFrom": {
+        "amount": 1200,
+        "currency": "EUR"
+      },
+      "urls": {
+        "book": "/evenement/178",
+        "details": "/evenement/178/details"
+      }
+    },
+    {
+      "id": "171",
+      "kind": "MATCH",
+      "title": null,
+      "competition": {
+        "name": "Ligue Élite",
+        "round": "J12"
+      },
+      "homeTeam": {
+        "name": "AS Rivemont",
+        "shortName": "Rivemont",
+        "logoUrl": "/assets/teams/rivemont.svg"
+      },
+      "awayTeam": {
+        "name": "RC Lensois",
+        "shortName": "Lensois",
+        "logoUrl": "/assets/teams/lensois.svg"
+      },
+      "venue": {
+        "name": "Stade de la Maine",
+        "city": "Rivemont",
+        "timeZone": "Europe/Paris"
+      },
+      "startDatetime": "2026-11-28T16:15:00Z",
+      "hasUnknownStartDate": false,
+      "isOnSale": false,
+      "isSoldOut": false,
+      "onSaleAt": "2026-11-02T09:00:00Z",
+      "presale": null,
+      "priceFrom": {
+        "amount": 1500,
+        "currency": "EUR"
+      },
+      "urls": {
+        "book": "/evenement/171",
+        "details": "/evenement/171/details"
+      }
+    },
+    {
+      "id": "170",
+      "kind": "MATCH",
+      "title": null,
+      "competition": {
+        "name": "Ligue Élite",
+        "round": "J16"
+      },
+      "homeTeam": {
+        "name": "AS Rivemont",
+        "shortName": "Rivemont",
+        "logoUrl": "/assets/teams/rivemont.svg"
+      },
+      "awayTeam": {
+        "name": "Paris Seine FC",
+        "shortName": "Paris Seine",
+        "logoUrl": "/assets/teams/paris-seine.svg"
+      },
+      "venue": {
+        "name": "Stade de la Maine",
+        "city": "Rivemont",
+        "timeZone": "Europe/Paris"
+      },
+      "startDatetime": "2027-01-16T19:45:00Z",
+      "hasUnknownStartDate": true,
+      "isOnSale": false,
+      "isSoldOut": false,
+      "onSaleAt": null,
+      "presale": null,
+      "priceFrom": {
+        "amount": 2500,
+        "currency": "EUR"
+      },
+      "urls": {
+        "book": "/evenement/170",
+        "details": "/evenement/170/details"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "featuredEvent",
+      "id": "blk-1",
+      "title": "En ce moment",
+      "eventId": "178"
+    },
+    {
+      "type": "newsletter",
+      "id": "blk-2",
+      "title": "Newsletter",
+      "body": "Actus, stats, infos match : ne ratez rien de la vie du club.",
+      "cta": {
+        "label": "En savoir plus",
+        "href": "https://example.com/rivemont/newsletter",
+        "external": true
+      }
+    },
+    {
+      "type": "promo",
+      "id": "blk-3",
+      "title": "Restaurant Le Panoramique",
+      "body": "Réservez votre table avec vue sur la pelouse du Stade de la Maine.",
+      "imageUrl": "/assets/clubs/rivemont/restaurant.jpg",
+      "cta": {
+        "label": "En savoir plus",
+        "href": "https://example.com/panoramique",
+        "external": true
+      }
+    },
+    {
+      "type": "promo",
+      "id": "blk-4",
+      "title": "Découvrez nos offres commerciales : hospitalité et visibilité",
+      "body": "Recevez vos clients et partenaires dans nos espaces réceptifs.",
+      "imageUrl": "/assets/clubs/rivemont/business.jpg",
+      "cta": {
+        "label": "En savoir plus",
+        "href": "https://example.com/rivemont/business",
+        "external": true
+      }
+    },
+    {
+      "type": "partners",
+      "id": "blk-5",
+      "title": "Partenaires officiels",
+      "partners": [
+        {
+          "name": "Atelier Noir & Blanc",
+          "logoUrl": "/assets/partners/atelier-noir-blanc.svg",
+          "href": "https://example.com/partners/atelier-noir-blanc"
+        },
+        {
+          "name": "Atollia",
+          "logoUrl": "/assets/partners/atollia.svg",
+          "href": "https://example.com/partners/atollia"
+        },
+        {
+          "name": "Kinetik",
+          "logoUrl": "/assets/partners/kinetik.svg",
+          "href": "https://example.com/partners/kinetik"
+        },
+        {
+          "name": "Magasins Ulmo",
+          "logoUrl": "/assets/partners/magasins-ulmo.svg",
+          "href": "https://example.com/partners/magasins-ulmo"
+        },
+        {
+          "name": "Actua",
+          "logoUrl": "/assets/partners/actua.svg",
+          "href": "https://example.com/partners/actua"
+        },
+        {
+          "name": "Ville de Rivemont",
+          "logoUrl": "/assets/partners/ville-de-rivemont.svg",
+          "href": "https://example.com/partners/ville-de-rivemont"
+        }
+      ]
+    }
+  ]
+}

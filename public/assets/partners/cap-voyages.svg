@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246 80" width="246" height="80" role="img" aria-label="Cap Voyages">
+  <rect width="246" height="80" rx="8" fill="#FF6B35"/>
+  <circle cx="32" cy="40" r="18" fill="#FFFFFF"/>
+  <text x="62" y="50" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="26"  fill="#FFFFFF">Cap Voyages</text>
+</svg>

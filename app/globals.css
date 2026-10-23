@@ -1,26 +1,111 @@
 @import "tailwindcss";
 
+/*
+ * Neutral base shared by every club. Brand roles (--brand, --action…) are
+ * injected per club on the page wrapper, from lib/domain/theme.ts.
+ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --paper: #eef0f2;
+  --surface: #ffffff;
+  --ink: #14161a;
+  --muted: #5a6170;
+  --line: #d9dde2;
+  --positive: #14b369;
+  --negative: #d81c28;
+  /* Dark base under photos and video: keeps white type legible. */
+  --scrim: #0d0f12;
+  --on-scrim: #ffffff;
+
+  --brand: #1d2330;
+  --on-brand: #ffffff;
+  --action: #14161a;
+  --on-action: #ffffff;
+  --action-inverse: #ffffff;
+  --on-action-inverse: #14161a;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-positive: var(--positive);
+  --color-negative: var(--negative);
+  --color-scrim: var(--scrim);
+  --color-on-scrim: var(--on-scrim);
+  --color-brand: var(--brand);
+  --color-on-brand: var(--on-brand);
+  --color-action: var(--action);
+  --color-on-action: var(--on-action);
+  --color-action-inverse: var(--action-inverse);
+  --color-on-action-inverse: var(--on-action-inverse);
+  --font-sans: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  color-scheme: light;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "kern", "liga";
+}
+
+/* The display voice: Archivo squeezed along its width axis. */
+.display {
+  font-stretch: 68%;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 0.92;
+}
+
+:focus-visible {
+  outline: 3px solid var(--action);
+  outline-offset: 2px;
+}
+
+.on-dark :focus-visible {
+  outline-color: var(--action-inverse);
+}
+
+/* Menu drawer slides in from the edge it is attached to. */
+.nav-drawer {
+  transition:
+    translate 220ms ease-out,
+    overlay 220ms allow-discrete,
+    display 220ms allow-discrete;
+  translate: 100% 0;
+}
+.nav-drawer[open] {
+  translate: 0 0;
+}
+@starting-style {
+  .nav-drawer[open] {
+    translate: 100% 0;
+  }
+}
+.nav-drawer::backdrop {
+  transition: opacity 220ms;
+  opacity: 0;
+}
+.nav-drawer[open]::backdrop {
+  opacity: 1;
+}
+@starting-style {
+  .nav-drawer[open]::backdrop {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }

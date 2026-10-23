@@ -1,0 +1,99 @@
+{
+  "snapshotAt": "2026-10-24T08:00:00Z",
+  "tenant": {
+    "slug": "brehaut",
+    "name": "Football Club de Bréhaut-sur-Vire",
+    "shortName": "FC Bréhaut",
+    "logoUrl": null,
+    "brand": {
+      "primary": "#C6FF00",
+      "secondary": null
+    },
+    "locale": "fr-FR",
+    "timeZone": "Europe/Paris",
+    "currency": "EUR"
+  },
+  "notice": null,
+  "navigation": [
+    {
+      "label": "Abonnements",
+      "href": "/abonnements",
+      "external": false
+    },
+    {
+      "label": "Le club",
+      "href": "https://example.com/brehaut",
+      "external": true
+    },
+    {
+      "label": "Contact",
+      "href": "/contact",
+      "external": false
+    }
+  ],
+  "hero": {
+    "title": "Billetterie",
+    "subtitle": null,
+    "imageUrl": null,
+    "featuredEventId": null
+  },
+  "events": [
+    {
+      "id": "31",
+      "kind": "MATCH",
+      "title": null,
+      "competition": {
+        "name": "National 3",
+        "round": "J9"
+      },
+      "homeTeam": {
+        "name": "Football Club de Bréhaut-sur-Vire",
+        "shortName": "FC Bréhaut",
+        "logoUrl": null
+      },
+      "awayTeam": {
+        "name": "US Granvillaise",
+        "shortName": "Granvillaise",
+        "logoUrl": null
+      },
+      "venue": {
+        "name": "Stade Municipal",
+        "city": "Bréhaut-sur-Vire",
+        "timeZone": "Europe/Paris"
+      },
+      "startDatetime": "2026-11-14T17:00:00Z",
+      "hasUnknownStartDate": true,
+      "isOnSale": false,
+      "isSoldOut": false,
+      "onSaleAt": null,
+      "presale": null,
+      "priceFrom": {
+        "amount": 600,
+        "currency": "EUR"
+      },
+      "urls": {
+        "book": "/evenement/31",
+        "details": "/evenement/31/details"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "newsletter",
+      "id": "blk-1",
+      "title": "Newsletter",
+      "body": "Recevez les infos du club.",
+      "cta": {
+        "label": "S’inscrire",
+        "href": "https://example.com/brehaut/newsletter",
+        "external": true
+      }
+    },
+    {
+      "type": "partners",
+      "id": "blk-2",
+      "title": "Nos partenaires",
+      "partners": []
+    }
+  ]
+}

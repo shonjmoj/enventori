@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -18 100 138" width="100" height="138" role="img" aria-label="lyon-rhone">
+  <defs><clipPath id="c-lyon-rhone"><path d="M8 6 H92 V58 C92 88 72 104 50 114 C28 104 8 88 8 58 Z"/></clipPath></defs>
+  <polygon points="50.00,3.00 51.59,6.82 55.71,7.15 52.57,9.83 53.53,13.85 50.00,11.70 46.47,13.85 47.43,9.83 44.29,7.15 48.41,6.82" fill="#DA291C"/>
+  <g clip-path="url(#c-lyon-rhone)">
+    <rect width="100" height="120" fill="#FFFFFF"/><polygon points="0,40 22,40 100,118 100,140 78,140 0,62" fill="#1E3A8A"/>
+    <rect x="0" y="0" width="100" height="36" fill="#1E3A8A"/>
+  </g>
+  <path d="M8 6 H92 V58 C92 88 72 104 50 114 C28 104 8 88 8 58 Z" fill="none" stroke="#DA291C" stroke-width="5" stroke-linejoin="round"/>
+  <text x="50" y="28" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="21" letter-spacing="1.5" fill="#FFFFFF">OLR</text>
+</svg>
